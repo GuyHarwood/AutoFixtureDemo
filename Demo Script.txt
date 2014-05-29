@@ -1,0 +1,7 @@
+AutoFixture
+===========
+
+1) create value types
+2) create object
+3) create set
+4) custom creation with specimen builder (name array)
