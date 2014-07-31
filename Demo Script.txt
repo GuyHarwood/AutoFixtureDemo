@@ -5,3 +5,5 @@ AutoFixture
 2) create object
 3) create set
 4) custom creation with specimen builder (name array)
+5) use of Without, SetProperty, and Do...With
+6) changing a SUT constructor signature, and how autofixture helps

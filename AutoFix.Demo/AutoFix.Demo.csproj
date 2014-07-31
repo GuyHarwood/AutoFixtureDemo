@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddressListBuilder.cs" />
+    <Compile Include="FirstNameBuilder.cs" />
     <Compile Include="IAccountRepository.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="AccountService.cs" />

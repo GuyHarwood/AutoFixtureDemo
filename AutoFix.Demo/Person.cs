@@ -29,9 +29,9 @@ namespace AutoFix.Demo
 			foreach (var address in addresses)
 			{
 				cities.Append(address.City);
-				cities.Append(",");
+				cities.AppendLine();
 			}
-			return string.Format("PersonId:{0}\nName:{1}\nAge:{2}\nCities:{3}", PersonId, Name, Age,cities);
+			return string.Format("PersonId:{0}\nName:{1}\nAge:{2}\nCities:\n{3}", PersonId, Name, Age,cities);
 		}
 	}
 
